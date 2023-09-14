@@ -1,3 +1,4 @@
+import asyncio
 import sys
 import discord
 from discord import app_commands
@@ -5,6 +6,7 @@ from discord.ext import commands, tasks
 from log import setupLogging
 import requests
 import urllib.parse
+import datetime
 
 
 def check(message):
@@ -61,7 +63,6 @@ class ClashOfClansCog(commands.Cog):
         if res.status_code == 200:
             res = res.json()
 
-            self.logger.debug(res)
             return res
         else:
             self.logger.error("Something went wrong when getting coc data")
@@ -89,14 +90,51 @@ class ClashOfClansCog(commands.Cog):
             self.logger.debug(res.json())
             return res.json()
 
-
     async def updateWarStats(self, gid):
-        in_war = self.bot.get_channel(self.in_warVCID)
+        war_stats = self.bot.get_channel(self.in_warVCID)
         star_count = self.bot.get_channel(self.current_starsVCID)
+        res = requests.get(
+            f"{self.clanEndpoint}{urllib.parse.quote(self.db['guilds'][str(gid)]['clan']['tag'])}/currentwar",
+            headers={'Authorization': f'Bearer {self.key}'})
 
+        if res.status_code == 200:
+            res = res.json()
+        else:
+            self.logger.error("Updating war stats went wrong, here's debug info (turn on debug btw):")
+            self.logger.debug(res.json())
+            self.logger.debug(res)
+            return
 
+        if res["state"].upper() == "NOT_IN_WAR":
+            await war_stats.edit(name="War Status: Not in war")
+            await star_count.edit(name="Star Count: Not in war")
 
+        elif res["state"].upper() == "IN_MATCHMAKING":
+            await war_stats.edit(name="War Status: Matchmaking")
+            await star_count.edit(name="Star Count: Matchmaking")
 
+        elif res["state"].upper() == "PREPARATION":
+            await war_stats.edit(name="War Status: Preparation")
+            await star_count.edit(name="Star Count: Preparation")
+
+        elif res["state"].upper() == "IN_WAR":
+            await war_stats.edit(name="War Status: In War")
+            sc = res["stars"]
+            await star_count.edit(name=f"Star Count: {sc}")
+
+    @tasks.loop(minutes=5)
+    async def updateStatsPerGuild(self):
+        for g in self.db["guilds"].keys():
+            if not self.db["guilds"][str(g)]["setup"]:
+                continue
+
+            await self.updateWarStats(g)
+            await asyncio.sleep(
+                15)  # waits 15 seconds after each update, so make sure we don't hit an API limit, this is on top of the 5 minutes per guild
+
+    @updateStatsPerGuild.before_loop
+    async def waitForLoad(self):
+        await self.bot.wait_until_ready()
 
     async def verifyPlayer(self, username, gid, uid):
         guild = self.db["guilds"][str(gid)]
@@ -199,6 +237,7 @@ class ClashOfClansCog(commands.Cog):
 
     # doing something when the cog gets loaded
     async def cog_load(self):
+        self.updateStatsPerGuild.start()
         self.logger.debug(f"{self.__class__.__name__} loaded!")
 
     # doing something when the cog gets unloaded

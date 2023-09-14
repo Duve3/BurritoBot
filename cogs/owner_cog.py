@@ -6,12 +6,6 @@ from discord.ext import commands
 from log import setupLogging
 
 
-def check(author):
-    def inner_check(message):
-        return message.author == author
-    return inner_check
-
-
 def isATypeOfYes(msg: str):
     typeOfYeses = [
         "yes",
@@ -45,6 +39,8 @@ class OwnerCog(commands.Cog):
                 await self.bot.tree.sync(guild=discord.Object(ctx.message.guild.id))
                 await ctx.reply("Successfully synced app commands to this guild!")
             else:
+                def check(message):
+                    return message.author == message.author
                 self.logger.info("Owner has asked to sync, awaiting confirmation.")
                 await ctx.reply("Are you sure you want to sync app commands GLOBALLY? This process can take up to an hour!")
                 msg = await self.bot.wait_for('message', check=check, timeout=30)

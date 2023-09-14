@@ -1,0 +1,214 @@
+INFO (09/06 13:49:52) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/06 13:49:53) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 202 [CoC_cog.py])
+DEBUG (09/06 13:49:53) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/06 13:49:53) - OwnerCog: OwnerCog loaded! (Line: 63 [owner_cog.py])
+INFO (09/06 13:49:53) - discord.gateway: Shard ID None has connected to Gateway (Session ID: f760620d59071759308b17d736a059f6). (Line: 561 [gateway.py])
+INFO (09/06 13:49:55) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+WARNING (09/06 16:01:55) - discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting. (Line: 154 [gateway.py])
+INFO (09/06 16:01:55) - discord.gateway: Shard ID None session has been invalidated. (Line: 550 [gateway.py])
+INFO (09/06 16:02:01) - discord.gateway: Shard ID None has connected to Gateway (Session ID: be4669698c99d3ae95eb9ea959f4a941). (Line: 561 [gateway.py])
+INFO (09/06 16:02:03) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+INFO (09/06 17:49:14) - discord.gateway: Shard ID None has successfully RESUMED session be4669698c99d3ae95eb9ea959f4a941. (Line: 566 [gateway.py])
+WARNING (09/06 19:55:25) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+INFO (09/06 19:55:25) - discord.gateway: Shard ID None session has been invalidated. (Line: 550 [gateway.py])
+INFO (09/06 19:55:31) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 5481e468d8e65e8943bc0f4d11ac6c73). (Line: 561 [gateway.py])
+INFO (09/06 19:55:33) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+WARNING (09/07 15:05:03) - discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting. (Line: 154 [gateway.py])
+INFO (09/07 15:05:04) - discord.gateway: Shard ID None session has been invalidated. (Line: 550 [gateway.py])
+INFO (09/07 15:05:09) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 5c075dc303fe4e22c7c46f5b1392b291). (Line: 561 [gateway.py])
+INFO (09/07 15:05:11) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+WARNING (09/07 15:05:12) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 52.34 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:06:04) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:07:04) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:08:04) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:10:32) - discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting. (Line: 154 [gateway.py])
+INFO (09/07 15:10:32) - discord.gateway: Shard ID None session has been invalidated. (Line: 550 [gateway.py])
+INFO (09/07 15:10:38) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 2b7783fc78dc35fade8c586ed1a680a4). (Line: 561 [gateway.py])
+INFO (09/07 15:10:40) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+WARNING (09/07 15:10:44) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 48.98 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:11:33) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:12:33) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:13:33) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 15:14:33) - discord.gateway: WebSocket in shard ID None is ratelimited, waiting 59.99 seconds (Line: 122 [gateway.py])
+WARNING (09/07 17:53:28) - discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting. (Line: 154 [gateway.py])
+INFO (09/07 17:53:29) - discord.gateway: Shard ID None session has been invalidated. (Line: 550 [gateway.py])
+INFO (09/07 17:53:34) - discord.gateway: Shard ID None has connected to Gateway (Session ID: c010c503e14e29a8e8214dffab700462). (Line: 561 [gateway.py])
+INFO (09/07 17:53:36) - main: I have successfully logged in as:
+	BurritoBot#7406
+	ID: 1148335751487041626 (Line: 77 [main.py])
+INFO (09/07 18:46:36) - discord.gateway: Shard ID None has successfully RESUMED session c010c503e14e29a8e8214dffab700462. (Line: 566 [gateway.py])
+DEBUG (09/07 19:28:05) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 206 [CoC_cog.py])
+DEBUG (09/07 19:28:05) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/07 19:28:05) - OwnerCog: OwnerCog unloaded! (Line: 67 [owner_cog.py])
+DEBUG (09/13 18:29:59) - main: MTE0ODMzNTc1MTQ4NzA0MTYyNg.Gjg-bb.Lbvx95xVc3oRHR5EF71zS8fhMvIEXTJ22drV3Q
+OTMyODMwMzA4NTczNzk0MzQ1.GAxDdV.FinnkA8S-FO6tc8IaJvbE9R8SfLSmfrOsnafY4 (Line: 110 [main.py])
+DEBUG (09/13 18:30:41) - main: MTE0ODMzNTc1MTQ4NzA0MTYyNg.Gjg-bb.Lbvx95xVc3oRHR5EF71zS8fhMvIEXTJ22drV3Q
+OTMyODMwMzA4NTczNzk0MzQ1.GAxDdV.FinnkA8S-FO6tc8IaJvbE9R8SfLSmfrOsnafY4 (Line: 110 [main.py])
+INFO (09/13 18:30:56) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 18:30:56) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 238 [CoC_cog.py])
+DEBUG (09/13 18:30:56) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 18:30:56) - OwnerCog: OwnerCog loaded! (Line: 63 [owner_cog.py])
+INFO (09/13 18:30:57) - discord.gateway: Shard ID None has connected to Gateway (Session ID: e9d51661f0003788f3c9ec22e2f9c6e6). (Line: 561 [gateway.py])
+INFO (09/13 18:30:59) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 75 [main.py])
+ERROR (09/13 18:30:59) - discord.ext.tasks: Unhandled exception in internal background task 'updateStatsPerGuild'. (Line: 537 [__init__.py])
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\tasks\__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\laksh\PycharmProjects\DiscordBots\BurritoBot\cogs\CoC_cog.py", line 129, in updateStatsPerGuild
+    await self.updateWarStats(g)
+  File "C:\Users\laksh\PycharmProjects\DiscordBots\BurritoBot\cogs\CoC_cog.py", line 98, in updateWarStats
+    f"{self.clanEndpoint}{urllib.parse.quote(self.db['guilds'][str(gid)]['clan']['tag'])}/currentwar",
+  File "c:\python39\lib\urllib\parse.py", line 871, in quote
+    return quote_from_bytes(string, safe)
+  File "c:\python39\lib\urllib\parse.py", line 896, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+DEBUG (09/13 18:32:54) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 242 [CoC_cog.py])
+DEBUG (09/13 18:32:54) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 18:32:54) - OwnerCog: OwnerCog unloaded! (Line: 67 [owner_cog.py])
+INFO (09/13 18:32:54) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 18:32:55) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 241 [CoC_cog.py])
+DEBUG (09/13 18:32:55) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 18:32:55) - OwnerCog: OwnerCog loaded! (Line: 63 [owner_cog.py])
+INFO (09/13 18:32:56) - discord.gateway: Shard ID None has connected to Gateway (Session ID: ae9c7b0dccad823cc247f66bc2318c6d). (Line: 561 [gateway.py])
+INFO (09/13 18:32:58) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 75 [main.py])
+INFO (09/13 18:33:03) - OwnerCog: Syncing app commands to 1147266129807544431 (Line: 43 [owner_cog.py])
+DEBUG (09/13 18:39:48) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 245 [CoC_cog.py])
+DEBUG (09/13 18:39:48) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 18:39:48) - OwnerCog: OwnerCog unloaded! (Line: 67 [owner_cog.py])
+INFO (09/13 18:39:49) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 18:39:50) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 241 [CoC_cog.py])
+DEBUG (09/13 18:39:50) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 18:39:50) - OwnerCog: OwnerCog loaded! (Line: 59 [owner_cog.py])
+INFO (09/13 18:39:50) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 50adf7ccde4d1f0200c252c8e6f272d7). (Line: 561 [gateway.py])
+INFO (09/13 18:39:52) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 75 [main.py])
+INFO (09/13 18:40:06) - OwnerCog: Syncing app commands to 1147266129807544431 (Line: 37 [owner_cog.py])
+ERROR (09/13 18:40:50) - discord.app_commands.tree: Ignoring exception in command tree (Line: 800 [tree.py])
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\app_commands\tree.py", line 1221, in _call
+    command, options = self._get_app_command_options(data)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\app_commands\tree.py", line 1125, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'ping' not found
+ERROR (09/13 18:41:50) - discord.ext.commands.bot: Ignoring exception in command connect_player (Line: 348 [bot.py])
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\hybrid.py", line 531, in _parse_arguments
+    return await super()._parse_arguments(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: username is a required argument that is missing.
+DEBUG (09/13 19:06:49) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 245 [CoC_cog.py])
+DEBUG (09/13 19:06:49) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 19:06:49) - OwnerCog: OwnerCog unloaded! (Line: 63 [owner_cog.py])
+INFO (09/13 21:38:15) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 21:38:16) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 241 [CoC_cog.py])
+DEBUG (09/13 21:38:16) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 21:38:16) - OwnerCog: OwnerCog loaded! (Line: 59 [owner_cog.py])
+INFO (09/13 21:38:16) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 726f54808a0a61e3dd6e5993d4438d32). (Line: 561 [gateway.py])
+INFO (09/13 21:38:18) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 82 [main.py])
+ERROR (09/13 21:38:40) - discord.ext.commands.bot: Ignoring exception in command None (Line: 348 [bot.py])
+discord.ext.commands.errors.CommandNotFound: Command "setup" is not found
+ERROR (09/13 21:38:57) - discord.ext.commands.bot: Ignoring exception in command setup_guild (Line: 348 [bot.py])
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\hybrid.py", line 531, in _parse_arguments
+    return await super()._parse_arguments(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: tag is a required argument that is missing.
+DEBUG (09/13 22:03:32) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 245 [CoC_cog.py])
+DEBUG (09/13 22:03:32) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 22:03:32) - OwnerCog: OwnerCog unloaded! (Line: 63 [owner_cog.py])
+INFO (09/13 22:03:35) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 22:03:36) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 240 [CoC_cog.py])
+DEBUG (09/13 22:03:36) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 22:03:36) - OwnerCog: OwnerCog loaded! (Line: 59 [owner_cog.py])
+INFO (09/13 22:03:36) - discord.gateway: Shard ID None has connected to Gateway (Session ID: e697c48d138c31c052f810862a24d320). (Line: 561 [gateway.py])
+INFO (09/13 22:03:38) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 82 [main.py])
+DEBUG (09/13 22:04:46) - ConnectPlayerCog: {'tag': '#QVQRJV2G9', 'name': 'duc3', 'townHallLevel': 9, 'expLevel': 73, 'trophies': 987, 'bestTrophies': 1078, 'warStars': 59, 'attackWins': 16, 'defenseWins': 3, 'builderHallLevel': 7, 'builderBaseTrophies': 2042, 'versusTrophies': 2042, 'bestBuilderBaseTrophies': 2083, 'bestVersusTrophies': 2083, 'versusBattleWins': 0, 'role': 'coLeader', 'warPreference': 'in', 'donations': 0, 'donationsReceived': 114, 'clanCapitalContributions': 81271, 'clan': {'tag': '#2Q2RYVY0P', 'name': 'BurritoBakery', 'clanLevel': 4, 'badgeUrls': {'small': 'https://api-assets.clashofclans.com/badges/70/E3pquKN-KE2Rzp1IRkdeSpLlH1QC8qoj5EymQ5g91pQ.png', 'large': 'https://api-assets.clashofclans.com/badges/512/E3pquKN-KE2Rzp1IRkdeSpLlH1QC8qoj5EymQ5g91pQ.png', 'medium': 'https://api-assets.clashofclans.com/badges/200/E3pquKN-KE2Rzp1IRkdeSpLlH1QC8qoj5EymQ5g91pQ.png'}}, 'league': {'id': 29000005, 'name': 'Silver League II', 'iconUrls': {'small': 'https://api-assets.clashofclans.com/leagues/72/8OhXcwDJkenBH2kPH73eXftFOpHHRF-b32n0yrTqC44.png', 'tiny': 'https://api-assets.clashofclans.com/leagues/36/8OhXcwDJkenBH2kPH73eXftFOpHHRF-b32n0yrTqC44.png', 'medium': 'https://api-assets.clashofclans.com/leagues/288/8OhXcwDJkenBH2kPH73eXftFOpHHRF-b32n0yrTqC44.png'}}, 'builderBaseLeague': {'id': 44000020, 'name': 'Brass League III'}, 'achievements': [{'name': 'Bigger Coffers', 'stars': 3, 'value': 11, 'target': 10, 'info': 'Upgrade a Gold Storage to level 10', 'completionInfo': 'Highest Gold Storage level: 11', 'village': 'home'}, {'name': 'Get even more Goblins!', 'stars': 1, 'value': 36, 'target': 255, 'info': 'Win 255 Stars on the Campaign Map', 'completionInfo': 'Stars in Campaign Map: 36', 'village': 'home'}, {'name': 'Bigger & Better', 'stars': 3, 'value': 9, 'target': 8, 'info': 'Upgrade Town Hall to level 8', 'completionInfo': 'Current Town Hall level: 9', 'village': 'home'}, {'name': 'Nice and Tidy', 'stars': 3, 'value': 857, 'target': 500, 'info': 'Remove 500 obstacles (trees, rocks, bushes)', 'completionInfo': 'Total obstacles removed: 857', 'village': 'home'}, {'name': 'Discover New Troops', 'stars': 3, 'value': 1, 'target': 1, 'info': 'Unlock Dragon in the Barracks', 'completionInfo': None, 'village': 'home'}, {'name': 'Gold Grab', 'stars': 2, 'value': 33307498, 'target': 100000000, 'info': 'Steal 100000000 gold', 'completionInfo': 'Total Gold looted: 33307498', 'village': 'home'}, {'name': 'Elixir Escapade', 'stars': 2, 'value': 36180772, 'target': 100000000, 'info': 'Steal 100000000 elixir', 'completionInfo': 'Total Elixir looted: 36180772', 'village': 'home'}, {'name': 'Sweet Victory!', 'stars': 2, 'value': 1078, 'target': 1250, 'info': 'Achieve a total of 1250 trophies in Multiplayer battles', 'completionInfo': 'Trophy record: 1078', 'village': 'home'}, {'name': 'Empire Builder', 'stars': 3, 'value': 5, 'target': 4, 'info': 'Upgrade Clan Castle to level 4', 'completionInfo': 'Current Clan Castle level: 5', 'village': 'home'}, {'name': 'Wall Buster', 'stars': 2, 'value': 1144, 'target': 2000, 'info': 'Destroy 2000 Walls in Multiplayer battles', 'completionInfo': 'Total walls destroyed: 1144', 'village': 'home'}, {'name': 'Humiliator', 'stars': 2, 'value': 169, 'target': 2000, 'info': 'Destroy 2000 Town Halls in Multiplayer battles', 'completionInfo': 'Total Town Halls destroyed: 169', 'village': 'home'}, {'name': 'Union Buster', 'stars': 2, 'value': 516, 'target': 2500, 'info': "Destroy 2500 Builder's Huts in Multiplayer battles", 'completionInfo': "Total Builder's Huts destroyed: 516", 'village': 'home'}, {'name': 'Conqueror', 'stars': 1, 'value': 208, 'target': 250, 'info': 'Win 250 Multiplayer battles', 'completionInfo': 'Total multiplayer battles won: 208', 'village': 'home'}, {'name': 'Unbreakable', 'stars': 1, 'value': 31, 'target': 250, 'info': 'Successfully defend against 250 attacks', 'completionInfo': 'Total defenses won: 31', 'village': 'home'}, {'name': 'Friend in Need', 'stars': 1, 'value': 395, 'target': 5000, 'info': 'Donate 5000 capacity worth of reinforcements to Clanmates', 'completionInfo': 'Total capacity donated: 395', 'village': 'home'}, {'name': 'Mortar Mauler', 'stars': 2, 'value': 529, 'target': 5000, 'info': 'Destroy 5000 Mortars in Multiplayer battles', 'completionInfo': 'Total Mortars destroyed: 529', 'village': 'home'}, {'name': 'Heroic Heist', 'stars': 1, 'value': 96374, 'target': 250000, 'info': 'Steal 250000 Dark Elixir', 'completionInfo': 'Total Dark Elixir looted: 96374', 'village': 'home'}, {'name': 'League All-Star', 'stars': 0, 'value': 5, 'target': 1, 'info': 'Join the Crystal League', 'completionInfo': None, 'village': 'home'}, {'name': 'X-Bow Exterminator', 'stars': 1, 'value': 9, 'target': 250, 'info': 'Destroy 250 X-Bows in Multiplayer battles', 'completionInfo': 'Total X-Bows destroyed: 9', 'village': 'home'}, {'name': 'Firefighter', 'stars': 0, 'value': 0, 'target': 10, 'info': 'Destroy 10 Inferno Towers in Multiplayer battles', 'completionInfo': 'Total Inferno Towers destroyed: 0', 'village': 'home'}, {'name': 'War Hero', 'stars': 1, 'value': 59, 'target': 150, 'info': 'Score 150 Stars for your clan in Clan War battles', 'completionInfo': 'Total Stars scored for clan in Clan War battles: 59', 'village': 'home'}, {'name': 'Clan War Wealth', 'stars': 2, 'value': 33382822, 'target': 100000000, 'info': 'Collect 100000000 gold from the Clan Castle', 'completionInfo': 'Total gold collected in Clan War bonuses: 33382822', 'village': 'home'}, {'name': 'Anti-Artillery', 'stars': 0, 'value': 0, 'target': 20, 'info': 'Destroy 20 Eagle Artilleries in Multiplayer battles', 'completionInfo': 'Total Eagle Artilleries destroyed: 0', 'village': 'home'}, {'name': 'Sharing is caring', 'stars': 0, 'value': 2, 'target': 100, 'info': 'Donate 100 spell storage capacity worth of spells', 'completionInfo': 'Total spell capacity donated: 2', 'village': 'home'}, {'name': 'Keep Your Account Safe!', 'stars': 0, 'value': 0, 'target': 1, 'info': 'Protect your village by connecting to a social network', 'completionInfo': 'Completed!', 'village': 'home'}, {'name': 'Master Engineering', 'stars': 2, 'value': 7, 'target': 8, 'info': 'Upgrade Builder Hall to level 8', 'completionInfo': 'Current Builder Hall level: 7', 'village': 'builderBase'}, {'name': 'Next Generation Model', 'stars': 2, 'value': 1, 'target': 1, 'info': 'Unlock Cannon Cart in the Builder Barracks', 'completionInfo': None, 'village': 'builderBase'}, {'name': 'Un-Build It', 'stars': 2, 'value': 369, 'target': 2000, 'info': 'Destroy 2000 Builder Halls in Builder Battles', 'completionInfo': 'Total Builder Halls destroyed: 369', 'village': 'builderBase'}, {'name': 'Champion Builder', 'stars': 2, 'value': 2083, 'target': 3000, 'info': 'Achieve a total of 3000 trophies in Builder Battles', 'completionInfo': 'Builder Trophy record: 2083', 'village': 'builderBase'}, {'name': 'High Gear', 'stars': 1, 'value': 1, 'target': 2, 'info': 'Gear Up 2 buildings using the Master Builder', 'completionInfo': 'Total buildings geared up: 1', 'village': 'builderBase'}, {'name': 'Hidden Treasures', 'stars': 3, 'value': 1, 'target': 1, 'info': 'Rebuild Battle Machine', 'completionInfo': None, 'village': 'builderBase'}, {'name': 'Games Champion', 'stars': 0, 'value': 3850, 'target': 10000, 'info': 'Earn 10000 points in Clan Games', 'completionInfo': 'Total Clan Games points: 3850', 'village': 'home'}, {'name': 'Dragon Slayer', 'stars': 0, 'value': 0, 'target': 1, 'info': 'Slay the Giant Dragon on the Campaign Map', 'completionInfo': None, 'village': 'home'}, {'name': 'War League Legend', 'stars': 1, 'value': 34, 'target': 100, 'info': 'Score 100 Stars for your clan in War League battles', 'completionInfo': 'Total Stars scored for clan in War League battles: 34', 'village': 'home'}, {'name': 'Keep Your Account Safe!', 'stars': 0, 'value': 0, 'target': 1, 'info': 'Connect your account to Supercell ID for safe keeping.', 'completionInfo': 'Completed!', 'village': 'home'}, {'name': 'Well Seasoned', 'stars': 1, 'value': 13330, 'target': 15000, 'info': 'Earn 15000 points in Season Challenges', 'completionInfo': 'Total Season Challenges points: 13330', 'village': 'home'}, {'name': 'Shattered and Scattered', 'stars': 0, 'value': 0, 'target': 40, 'info': 'Destroy 40 Scattershots in Multiplayer battles', 'completionInfo': 'Total Scattershots destroyed: 0', 'village': 'home'}, {'name': 'Not So Easy This Time', 'stars': 0, 'value': 0, 'target': 10, 'info': 'Destroy 10 weaponized Town Halls in Multiplayer battles', 'completionInfo': 'Weaponized Town Halls destroyed: 0', 'village': 'home'}, {'name': 'Bust This!', 'stars': 0, 'value': 0, 'target': 25, 'info': "Destroy 25 weaponized Builder's Huts in Multiplayer battles", 'completionInfo': "Total weaponized Builder's Huts destroyed: 0", 'village': 'home'}, {'name': 'Superb Work', 'stars': 0, 'value': 0, 'target': 20, 'info': 'Boost a Super Troop 20 times', 'completionInfo': 'Total times Super Troops boosted: 0', 'village': 'home'}, {'name': 'Siege Sharer', 'stars': 0, 'value': 0, 'target': 50, 'info': 'Donate 50 Siege Machines', 'completionInfo': 'Total Siege Machines donated: 0', 'village': 'home'}, {'name': 'Aggressive Capitalism', 'stars': 1, 'value': 50755, 'target': 250000, 'info': 'Loot 250000 Capital Gold during Raid attacks', 'completionInfo': 'Total Capital Gold looted: 50755', 'village': 'clanCapital'}, {'name': 'Most Valuable Clanmate', 'stars': 1, 'value': 81271, 'target': 500000, 'info': 'Contribute 500000 Capital Gold to upgrades in the Clan Capital', 'completionInfo': 'Total Capital Gold contributed: 81271', 'village': 'clanCapital'}, {'name': 'Counterspell', 'stars': 0, 'value': 0, 'target': 40, 'info': 'Destroy 40 Spell Towers in Multiplayer Battles', 'completionInfo': 'Total Spell Towers Destroyed: 0', 'village': 'home'}, {'name': 'Monolith Masher', 'stars': 0, 'value': 0, 'target': 20, 'info': 'Destroy 20 Monoliths in Multiplayer Battles', 'completionInfo': 'Total Monoliths Destroyed: 0', 'village': 'home'}, {'name': 'Ungrateful Child', 'stars': 0, 'value': 0, 'target': 1, 'info': 'Defeat M.O.M.M.A on the Campaign Map', 'completionInfo': None, 'village': 'home'}], 'playerHouse': {'elements': [{'type': 'ground', 'id': 82000000}, {'type': 'walls', 'id': 82000048}, {'type': 'roof', 'id': 82000010}, {'type': 'decoration', 'id': 82000060}]}, 'labels': [{'id': 57000000, 'name': 'Clan Wars', 'iconUrls': {'small': 'https://api-assets.clashofclans.com/labels/64/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png', 'medium': 'https://api-assets.clashofclans.com/labels/128/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png'}}, {'id': 57000008, 'name': 'Active Donator', 'iconUrls': {'small': 'https://api-assets.clashofclans.com/labels/64/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png', 'medium': 'https://api-assets.clashofclans.com/labels/128/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png'}}, {'id': 57000009, 'name': 'Active Daily', 'iconUrls': {'small': 'https://api-assets.clashofclans.com/labels/64/mcWhk0ii7CyjiiHOidhRofrSulpVrxjDu24cQtGCQbE.png', 'medium': 'https://api-assets.clashofclans.com/labels/128/mcWhk0ii7CyjiiHOidhRofrSulpVrxjDu24cQtGCQbE.png'}}], 'troops': [{'name': 'Barbarian', 'level': 5, 'maxLevel': 11, 'village': 'home'}, {'name': 'Archer', 'level': 5, 'maxLevel': 11, 'village': 'home'}, {'name': 'Goblin', 'level': 5, 'maxLevel': 9, 'village': 'home'}, {'name': 'Giant', 'level': 5, 'maxLevel': 11, 'village': 'home'}, {'name': 'Wall Breaker', 'level': 5, 'maxLevel': 11, 'village': 'home'}, {'name': 'Balloon', 'level': 6, 'maxLevel': 10, 'village': 'home'}, {'name': 'Wizard', 'level': 5, 'maxLevel': 11, 'village': 'home'}, {'name': 'Healer', 'level': 3, 'maxLevel': 8, 'village': 'home'}, {'name': 'Dragon', 'level': 3, 'maxLevel': 10, 'village': 'home'}, {'name': 'P.E.K.K.A', 'level': 3, 'maxLevel': 10, 'village': 'home'}, {'name': 'Minion', 'level': 4, 'maxLevel': 11, 'village': 'home'}, {'name': 'Hog Rider', 'level': 4, 'maxLevel': 12, 'village': 'home'}, {'name': 'Valkyrie', 'level': 2, 'maxLevel': 10, 'village': 'home'}, {'name': 'Golem', 'level': 2, 'maxLevel': 12, 'village': 'home'}, {'name': 'Witch', 'level': 1, 'maxLevel': 6, 'village': 'home'}, {'name': 'Lava Hound', 'level': 1, 'maxLevel': 6, 'village': 'home'}, {'name': 'Baby Dragon', 'level': 1, 'maxLevel': 9, 'village': 'home'}, {'name': 'Super Barbarian', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Archer', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Wall Breaker', 'level': 1, 'maxLevel': 5, 'village': 'home'}, {'name': 'Super Giant', 'level': 1, 'maxLevel': 3, 'village': 'home'}, {'name': 'Raged Barbarian', 'level': 12, 'maxLevel': 20, 'village': 'builderBase'}, {'name': 'Sneaky Archer', 'level': 9, 'maxLevel': 20, 'village': 'builderBase'}, {'name': 'Beta Minion', 'level': 7, 'maxLevel': 18, 'village': 'builderBase'}, {'name': 'Boxer Giant', 'level': 11, 'maxLevel': 18, 'village': 'builderBase'}, {'name': 'Bomber', 'level': 8, 'maxLevel': 16, 'village': 'builderBase'}, {'name': 'Cannon Cart', 'level': 1, 'maxLevel': 14, 'village': 'builderBase'}, {'name': 'Baby Dragon', 'level': 1, 'maxLevel': 16, 'village': 'builderBase'}, {'name': 'Night Witch', 'level': 1, 'maxLevel': 12, 'village': 'builderBase'}, {'name': 'Sneaky Goblin', 'level': 1, 'maxLevel': 3, 'village': 'home'}, {'name': 'Rocket Balloon', 'level': 1, 'maxLevel': 3, 'village': 'home'}, {'name': 'Inferno Dragon', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Valkyrie', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Witch', 'level': 1, 'maxLevel': 2, 'village': 'home'}, {'name': 'Ice Hound', 'level': 1, 'maxLevel': 2, 'village': 'home'}, {'name': 'Super Dragon', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Wizard', 'level': 1, 'maxLevel': 3, 'village': 'home'}, {'name': 'Super Minion', 'level': 1, 'maxLevel': 4, 'village': 'home'}, {'name': 'Super Hog Rider', 'level': 1, 'maxLevel': 3, 'village': 'home'}], 'heroes': [{'name': 'Barbarian King', 'level': 10, 'maxLevel': 90, 'village': 'home'}, {'name': 'Archer Queen', 'level': 5, 'maxLevel': 90, 'village': 'home'}, {'name': 'Battle Machine', 'level': 5, 'maxLevel': 35, 'village': 'builderBase'}], 'spells': [{'name': 'Lightning Spell', 'level': 5, 'maxLevel': 10, 'village': 'home'}, {'name': 'Healing Spell', 'level': 6, 'maxLevel': 9, 'village': 'home'}, {'name': 'Rage Spell', 'level': 5, 'maxLevel': 6, 'village': 'home'}, {'name': 'Poison Spell', 'level': 3, 'maxLevel': 9, 'village': 'home'}, {'name': 'Earthquake Spell', 'level': 2, 'maxLevel': 5, 'village': 'home'}]} (Line: 86 [CoC_cog.py])
+ERROR (09/13 22:04:46) - discord.ext.commands.bot: Ignoring exception in command connect_player (Line: 348 [bot.py])
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\laksh\PycharmProjects\DiscordBots\BurritoBot\cogs\CoC_cog.py", line 187, in connectPlayer
+    res = await self.verifyPlayer(username, ctx.guild.id, ctx.author.id)
+  File "C:\Users\laksh\PycharmProjects\DiscordBots\BurritoBot\cogs\CoC_cog.py", line 155, in verifyPlayer
+    await gMember.add_roles(role, reason=reason)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\laksh\.virtualenvs\DiscordBots-2Ca-sDh-\lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+DEBUG (09/13 22:05:46) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 244 [CoC_cog.py])
+DEBUG (09/13 22:05:46) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 22:05:46) - OwnerCog: OwnerCog unloaded! (Line: 63 [owner_cog.py])
+INFO (09/13 22:05:47) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 22:05:47) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 240 [CoC_cog.py])
+DEBUG (09/13 22:05:47) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 22:05:47) - OwnerCog: OwnerCog loaded! (Line: 59 [owner_cog.py])
+INFO (09/13 22:05:47) - discord.gateway: Shard ID None has connected to Gateway (Session ID: 7ab1943c14896253f705bd8f10cdde37). (Line: 561 [gateway.py])
+INFO (09/13 22:05:49) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 82 [main.py])
+DEBUG (09/13 22:07:07) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 244 [CoC_cog.py])
+DEBUG (09/13 22:07:07) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 22:07:07) - OwnerCog: OwnerCog unloaded! (Line: 63 [owner_cog.py])
+INFO (09/13 22:09:06) - discord.client: logging in using static token (Line: 603 [client.py])
+DEBUG (09/13 22:09:07) - ConnectPlayerCog: ClashOfClansCog loaded! (Line: 241 [CoC_cog.py])
+DEBUG (09/13 22:09:07) - DiscordPresenceCog: DiscordPresenceCog loaded! (Line: 29 [discord_pres_cog.py])
+DEBUG (09/13 22:09:07) - OwnerCog: OwnerCog loaded! (Line: 59 [owner_cog.py])
+INFO (09/13 22:09:07) - discord.gateway: Shard ID None has connected to Gateway (Session ID: feb11a05d49d5ceb35fea84ec7cb3704). (Line: 561 [gateway.py])
+INFO (09/13 22:09:09) - main: I have successfully logged in as:
+	BotTester#4037
+	ID: 932830308573794345 (Line: 82 [main.py])
+DEBUG (09/13 22:09:49) - ConnectPlayerCog: ClashOfClansCog unloaded! (Line: 245 [CoC_cog.py])
+DEBUG (09/13 22:09:49) - DiscordPresenceCog: DiscordPresenceCog unloaded! (Line: 34 [discord_pres_cog.py])
+DEBUG (09/13 22:09:49) - OwnerCog: OwnerCog unloaded! (Line: 63 [owner_cog.py])

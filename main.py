@@ -1,14 +1,13 @@
 import logging
-
 from log import setupLogging
 import discord
 import os
-import sys
 from discord.ext import commands, tasks
 import json
 
 # globals
 cogPath = "cogs."
+debug = False
 
 
 def getCogs():
@@ -21,16 +20,22 @@ def getCogs():
 
 
 class Client(commands.Bot):
+    global debug
+
     def __init__(self):
+        global debug
         intents = discord.Intents.default()
         intents.message_content = True
         intents.members = True
         intents.guilds = True
         with open("./db.json") as db:
             self.db = json.loads(db.read())
-
+        if not debug:
+            prefix = "!"
+        else:
+            prefix = "$$!!"
         super().__init__(
-            command_prefix="!",
+            command_prefix=prefix,
             intents=intents
         )
 
@@ -74,7 +79,8 @@ async def reloadCogs(ctx):
 
 @client.event
 async def on_ready():
-    logger.info(f"I have successfully logged in as:\n\t{client.user.name}#{client.user.discriminator}\n\tID: {client.user.id}")
+    logger.info(
+        f"I have successfully logged in as:\n\t{client.user.name}#{client.user.discriminator}\n\tID: {client.user.id}")
 
 
 @client.event
@@ -85,9 +91,9 @@ async def on_guild_join(guild: discord.Guild):
     client.db["guilds"][str(guild.id)] = {
         "setup": False,
         "clan": {
-            "tag": None
+            "tag": None,
         },
-        "verified": {}
+        "verified": {},
     }
 
 
@@ -99,16 +105,22 @@ async def on_guild_remove(guild: discord.Guild):
     client.db["guilds"][str(guild.id)] = {
         "setup": False,
         "clan": {
-            "tag": None
+            "tag": None,
         },
-        "verified": {}
+        "verified": {},
     }
 
 
 def main():
+    global debug
     try:
         with open("token.secret") as tf:
-            TOKEN = tf.read()
+            r = tf.read()
+            if len(r.split("\n")) == 2:
+                TOKEN = r.split("\n")[1]
+                debug = True
+            else:
+                TOKEN = r.split("\n")[0]
     except FileNotFoundError:
         logger.error("Failed to find token inside of token.secret! Exiting...")
         return
@@ -117,7 +129,7 @@ def main():
 
 if __name__ == "__main__":
     # setup
-    logger = setupLogging("main")
+    logger = setupLogging("main", level=logging.DEBUG)
     setupLogging("discord", level=logging.INFO)
     setupLogging("discord.http", level=logging.INFO)
     try:
